@@ -92,6 +92,6 @@ Project Link: [https://github.com/DannyT115/FYP-2020-2021](https://github.com/Da
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/DannyT115/FYP-2020-2021.svg?style=for-the-badge
-[license-url]: https://github.com/DannyT115/FYP-2020-2021/LICENSE.txt
+[license-url]: https://github.com/DannyT115/FYP-2020-2021/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/danny-taylor-76aa02155/
