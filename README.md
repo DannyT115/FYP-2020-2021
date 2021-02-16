@@ -1,7 +1,10 @@
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+<p align="center">
+    <a href=" https://www.linkedin.com/in/danny-taylor-76aa02155/" alt="License-MIT">
+        <img src="https://img.shields.io/badge/License-blue.svg?style=for-the-badge&logo=appveyor" /></a>
+    <a href="https://www.linkedin.com/in/danny-taylor-76aa02155/" alt="LinkedIn Profile">
+        <img src="https://img.shields.io/badge/LinkedIn-blue.svg?style=for-the-badge&logo=appveyor" /></a>
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -88,10 +91,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Danny Taylor - Dannytaylor1151@gmail.com
 
 Project Link: [https://github.com/DannyT115/FYP-2020-2021](https://github.com/DannyT115/FYP-2020-2021)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/DannyT115/FYP-2020-2021.svg?style=for-the-badge
-[license-url]: https://github.com/DannyT115/FYP-2020-2021/blob/main/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/danny-taylor-76aa02155/
