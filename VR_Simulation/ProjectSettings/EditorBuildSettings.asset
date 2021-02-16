@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Project/Scenes/Menu.unity
     guid: c0ee53c8210e4c84980c01f6ce688af0
   - enabled: 1
-    path: Assets/Scenes/Simulation.unity
+    path: Assets/Project/Scenes/Simulation.unity
     guid: 65908b0ecaa92bc4ebc889ab5a12e694
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f6f8dd32b9c61448b872a54696c9949,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 21c69c1e69be8ba4e88245cdb64133e6,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: f20747c3c05f8bd43a4f280f9b3b4840,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 08e5a420fc2a0cd469a3876676968d99,
+      type: 2}
