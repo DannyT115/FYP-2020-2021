@@ -10,6 +10,16 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void StartSecondLevel()
+    {
+        //TODO: Start SecondLevel
+    }
+
+    public void StartSandbox()
+    {
+        //TODO: Start Sandbox level
+    }
     
     // QuitSimulation exits from the main menu and out of the Unity Application.
     public void QuitSimulation()
