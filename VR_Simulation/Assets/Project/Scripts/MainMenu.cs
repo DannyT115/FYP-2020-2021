@@ -6,23 +6,26 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // StartSimulation changes the scene from the MainMenu to the simulation.
-    public void StartSimulation()
+    public void StartHoopsLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("Hoops Level Loaded");
     }
 
-    public void StartSecondLevel()
+    public void StartTargetsLevel()
     {
-        //TODO: Start SecondLevel
+        //SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 2);
+        //Debug.Log("Targets Level Loaded");
     }
 
     public void StartSandbox()
     {
-        //TODO: Start Sandbox level
+        //SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 3);
+        //Debug.Log("Hoops Level Loaded");
     }
     
     // QuitSimulation exits from the main menu and out of the Unity Application.
-    public void QuitSimulation()
+    public void QuitApplication()
     {
         Debug.Log("Quitting..."); // TODO: For debugging purposes only.
         Application.Quit();

@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Project/Scenes/Menu.unity
     guid: c0ee53c8210e4c84980c01f6ce688af0
   - enabled: 1
-    path: Assets/Project/Scenes/Simulation.unity
+    path: Assets/Project/Scenes/HoopsScene.unity
     guid: 65908b0ecaa92bc4ebc889ab5a12e694
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f6f8dd32b9c61448b872a54696c9949,

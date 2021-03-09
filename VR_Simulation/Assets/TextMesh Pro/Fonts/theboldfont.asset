@@ -97,7 +97,7 @@ Material:
     - _ColorMask: 15
     - _CullMode: 0
     - _Diffuse: 0.5
-    - _DiffusePower: 1.24
+    - _DiffusePower: 1
     - _FaceDilate: 0
     - _FaceShininess: 0
     - _FaceUVSpeedX: 0
