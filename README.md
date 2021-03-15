@@ -63,9 +63,8 @@ For Infants, bean bags and other soft objects are used as a way of developing th
 However, Hand-Eye Co-ordination can be trained at any age using popular methods today via Throwing and Catching.
 Popular examples of this are:
 
-* Basketball.
-* "Knock the Cans" Carnival Game.
-* Beer Pong.
+* Hoops (Basketball).
+* Spots (Target Practice)
 
 Each of these examples make use of a Ball object. So the project will focus on this key aspect of Throwing, Catching, Grasping and Utilizing simulated objects based on real world items.
 
