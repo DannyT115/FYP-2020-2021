@@ -18,5 +18,5 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: f20747c3c05f8bd43a4f280f9b3b4840,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 08e5a420fc2a0cd469a3876676968d99,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cf30fc551991a9f4eb3ff621dfb5e58a,
       type: 2}
