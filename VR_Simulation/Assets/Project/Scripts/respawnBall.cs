@@ -1,18 +1,21 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
 
 public class respawnBall : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Vector3 ballSpawnPoint;
 
-    // Update is called once per frame
-    void Update()
+    void Start() {
+        ballSpawnPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+    }
+ 
+    void OnTriggerEnter(Collider col)
     {
-        
+        if (col.gameObject.name == "Floor") {
+        Thread.Sleep(3000);
+        transform.position =  ballSpawnPoint;
+        }
     }
 }
