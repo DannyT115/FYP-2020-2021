@@ -1,9 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
-public class respawnBall : MonoBehaviour
+public class respawnTargetsBall : MonoBehaviour
 {
     Vector3 ballSpawnPoint;
     Rigidbody rb;
@@ -16,16 +16,12 @@ public class respawnBall : MonoBehaviour
 
         ballSpawnPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
-        //Find each "Boundary" trigger (located at the fence on each side),
+        //Find each "Boundary" trigger,
         //then add each Boundary trigger to list
-        GameObject NB = GameObject.Find("NorthBoundary");
-        Boundaries.Add(NB);
-        GameObject EB = GameObject.Find("EastBoundary");
-        Boundaries.Add(EB);
-        GameObject SB = GameObject.Find("SouthBoundary");
-        Boundaries.Add(SB);
-        GameObject WB = GameObject.Find("WestBoundary");
-        Boundaries.Add(WB);
+        GameObject OB = GameObject.Find("OffWallBoundary");
+        Boundaries.Add(OB);
+        GameObject FB = GameObject.Find("FloorBoundary");
+        Boundaries.Add(FB);
     }
  
     void OnTriggerEnter(Collider col)
@@ -34,7 +30,7 @@ public class respawnBall : MonoBehaviour
         //if collision is detected call RespawnBall function
         foreach (GameObject bd in Boundaries) {
             if (col.gameObject == bd ) {
-            Invoke("RespawnBall", 2);
+            Invoke("RespawnBall", 3);
             }
         }
     }
