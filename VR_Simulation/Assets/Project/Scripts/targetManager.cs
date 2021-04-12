@@ -14,9 +14,13 @@ public class targetManager : MonoBehaviour {
     float targetDetectionArea = 0.1f;
 
     public TextMeshPro PlayerScoreText; //TODO: Player score
+
+    public AudioSource scoreSound;
     public int scoreValue; //TODO: for adding to the score count on scoreboard.
 
     void Start(){
+
+        scoreSound = GetComponent<AudioSource>();
     
         scoreValue = 0;
 
@@ -41,8 +45,15 @@ public class targetManager : MonoBehaviour {
         foreach (GameObject b in listOfBalls) {
             if (col.gameObject == b ) {
                 Invoke("RespawnTargetAtRandom", 0);
+                Invoke("AddToScore", 0);
             }
         }
+    }
+
+    void AddToScore(){
+        scoreSound.Play();
+        scoreValue = scoreValue + 1; //add 1 to the score
+        PlayerScoreText.text = scoreValue.ToString();
     }
 
     void RespawnTargetAtRandom(){

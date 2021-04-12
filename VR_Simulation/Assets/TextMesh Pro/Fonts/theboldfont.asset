@@ -50,8 +50,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: theboldfont Material
-  m_Shader: {fileID: 4800000, guid: 1e3b057af24249748ff873be7fafee47, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: c8d12adcee749c344b8117cf7c7eb912, type: 3}
+  m_ShaderKeywords: OUTLINE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -98,7 +98,7 @@ Material:
     - _CullMode: 0
     - _Diffuse: 0.5
     - _DiffusePower: 1
-    - _FaceDilate: 0
+    - _FaceDilate: 0.067
     - _FaceShininess: 0
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
@@ -114,15 +114,15 @@ Material:
     - _MaskSoftnessY: 0
     - _MaskWipeControl: 0.5
     - _OutlineShininess: 0
-    - _OutlineSoftness: 0.5
+    - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 1
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 0.8
+    - _ScaleRatioA: 0.6711409
     - _ScaleRatioB: 0.7
-    - _ScaleRatioC: 0.7
+    - _ScaleRatioC: 0.6464
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
