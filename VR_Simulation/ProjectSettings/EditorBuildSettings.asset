@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Scenes/HoopsScene.unity
     guid: 65908b0ecaa92bc4ebc889ab5a12e694
+  - enabled: 1
+    path: Assets/Project/Scenes/TargetScene.unity
+    guid: 500d250e76e880648bd312e94531e32e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f6f8dd32b9c61448b872a54696c9949,
       type: 2}

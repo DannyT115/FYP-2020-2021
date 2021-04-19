@@ -14,14 +14,8 @@ public class MainMenu : MonoBehaviour
 
     public void StartTargetsLevel()
     {
-        //SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 2);
-        //Debug.Log("Targets Level Loaded");
-    }
-
-    public void StartSandbox()
-    {
-        //SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 3);
-        //Debug.Log("Hoops Level Loaded");
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 2);
+        Debug.Log("Targets Level Loaded");
     }
     
     // QuitSimulation exits from the main menu and out of the Unity Application.
