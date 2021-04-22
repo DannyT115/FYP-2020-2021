@@ -50,6 +50,11 @@ public class SettingsMenu : MonoBehaviour
         audioMixer.SetFloat("volume", volume);
     }
 
+    public void SetMusicVolume (float volume)
+    {
+        audioMixer.SetFloat("musicVolume", volume);
+    }
+
     // Method for changing the Graphics quality preset via dropdown menu.
     public void SetQuality (int qualityIndex)
     {

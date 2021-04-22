@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NavigateBack: 0
-  NavigateToRow: {fileID: 422254759}
+  NavigateToRow: {fileID: 20158141}
   RowEntryTransition: 1
 --- !u!114 &138023811
 MonoBehaviour:
@@ -8443,7 +8443,7 @@ GameObject:
   - component: {fileID: 1029909143}
   - component: {fileID: 1029909142}
   m_Layer: 0
-  m_Name: Start Timer
+  m_Name: SetTime60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8479,14 +8479,14 @@ MonoBehaviour:
   OnEnabledChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  _Id: Row1-IStartTimer
-  _Label: Start Timer
+  _Id: Row1-Set Time120
+  _Label: 'Set Time: 60s'
   _IsEnabled: 1
   OnSelectedEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1023067703}
-        m_MethodName: StartTimer
+        m_MethodName: SetTime60
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9732,7 +9732,7 @@ GameObject:
   - component: {fileID: 1132082428}
   - component: {fileID: 1132082427}
   m_Layer: 0
-  m_Name: Stop Timer
+  m_Name: SetTime180
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9768,14 +9768,14 @@ MonoBehaviour:
   OnEnabledChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  _Id: Row1-StopTimer
-  _Label: Stop Timer
+  _Id: Row1-SetTime180
+  _Label: 'Set Time: 180'
   _IsEnabled: 1
   OnSelectedEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1023067703}
-        m_MethodName: StopTimer
+        m_MethodName: SetTime180
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11811,7 +11811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 60
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c73c33591ab159c4696871ad5e5376c5, type: 2}
   m_sharedMaterial: {fileID: -2279511708853481483, guid: c73c33591ab159c4696871ad5e5376c5,
@@ -15313,7 +15313,7 @@ GameObject:
   - component: {fileID: 1746209711}
   - component: {fileID: 1746209710}
   m_Layer: 0
-  m_Name: Restart Timer
+  m_Name: SetTime120
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15349,14 +15349,14 @@ MonoBehaviour:
   OnEnabledChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  _Id: Row1-RestartTimer
-  _Label: Restart Timer
+  _Id: Row1-SetTime120
+  _Label: 'Set Time: 120s'
   _IsEnabled: 1
   OnSelectedEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1023067703}
-        m_MethodName: RestartTimer
+        m_MethodName: SetTime120
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
